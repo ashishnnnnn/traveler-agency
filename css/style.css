@@ -1,0 +1,526 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 0.5em;
+  font-weight: 500;
+}
+
+/* ################### UTILITY CLASSES #############################*/
+
+.lg-heading {
+  font-size: 3.5rem;
+}
+
+.md-heading {
+  font-size: 2rem;
+}
+
+.sm-heading {
+  font-size: 1.5rem;
+}
+
+.text-red {
+  color: #e63946;
+}
+
+.text-light {
+  color: #f4f4f4;
+}
+
+.text-black {
+  color: #333333;
+}
+
+.text-grey {
+  color: #555555;
+}
+
+.button-class-1 {
+  padding: 0.5em 1.5em;
+  border-radius: 1em;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0.5em 0;
+  background-color: white;
+}
+
+.button-class-2 {
+  background-color: white;
+  border: 1px solid #e63946;
+  padding: 0.5em 1.5em;
+  /* border: none; */
+  border-radius: 0.9em;
+  cursor: pointer;
+  margin: 0.5em 0;
+}
+
+.button-class-1:hover,
+.button-class-2:hover {
+  background-color: rgb(196, 181, 181);
+}
+
+/* ####################### HTML STYLING */
+
+.header {
+  height: 98vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url("../img/header-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  font-weight: 700;
+  /* font-size: 3.5rem; */
+}
+
+.nav-link a {
+  margin: 1em;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2em;
+  gap: 20em;
+}
+
+.nav-link a:hover {
+  text-decoration: underline;
+}
+
+.front-line {
+  color: white;
+  font-size: 3.5rem;
+  letter-spacing: 0.2em;
+  text-align: center;
+  font-weight: 800;
+}
+
+.travel-motivation {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.2em;
+}
+
+/* UTILITY CLASSES - 2 */
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container-2 {
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20em;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.15));
+}
+
+/* Section */
+
+.showcase {
+  padding: 10em;
+  background-color: #dfd9d981;
+}
+
+.row {
+  height: 250px;
+  margin-bottom: 10em;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  box-shadow: 0 0 20px 0 #aaa;
+}
+
+.last-row {
+  margin: 0;
+}
+
+.img-box {
+  flex: 1;
+  height: 100%;
+}
+
+.text-box {
+  flex: 1;
+  height: fit-content;
+  padding: 2em;
+}
+
+.img1 {
+  background: url("../img/showcase-photo3.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* background-position: center; */
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img2 {
+  background: url("../img/showcase-photo1.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* background-position: center; */
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.place-name {
+  text-transform: uppercase;
+  font-size: 3rem;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.3em;
+}
+
+.place-details {
+  letter-spacing: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+/* Features */
+
+.feature {
+  padding: 10em;
+}
+
+.feature-of-place {
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 0 20px 0 #aaa;
+}
+
+/*  */
+
+.adventure,
+.less-price,
+.experiance {
+  flex: 1;
+  height: 250px;
+  padding: 3em;
+}
+
+.adventure {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}
+
+.experiance {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}
+
+.less-price {
+  background-color: #e63946;
+  color: white;
+  text-align: center;
+}
+
+.title,
+.feature-details {
+  margin-bottom: 0.5em;
+}
+
+.title {
+  font-weight: 900;
+}
+
+.fas {
+  font-size: 2em;
+  /* margin-bottom: 0.6em; */
+}
+
+.footer {
+  background-color: #333333;
+  padding: 3em;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+.social-media-links i {
+  margin: 0.5em;
+}
+
+/* About-Styling */
+
+.about-navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2em;
+  gap: 20em;
+  background-color: #333333;
+}
+
+.about {
+  padding-top: 5em;
+  background-color: #f4f4f4;
+}
+
+.about-container {
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 0.3em;
+}
+
+.horizontal {
+  height: 1vh;
+  background-color: #e63946;
+  margin-bottom: 0.9em;
+}
+
+.about-details {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.9em;
+  color: #555555;
+}
+
+.listing {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0.3em;
+}
+
+.list {
+  list-style: none;
+}
+
+.about-listing {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.9em;
+  color: #555555;
+}
+
+.tick {
+  font-size: small;
+  padding-right: 0.6em;
+  color: #e63946;
+}
+
+#first-bullet {
+  padding-right: 0.35em;
+}
+
+.math-figures {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3em;
+}
+
+.number {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #e63946;
+}
+.units {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #555555;
+  letter-spacing: 0.1em;
+}
+
+.traveled,
+.places,
+.guide,
+.support {
+  text-align: center;
+}
+
+.rectangle {
+  height: 11vh;
+  background: linear-gradient(to right, #df737c, #ec3443);
+  margin-bottom: 1.9em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meaasge {
+  font-size: 2rem;
+  color: white;
+  font-weight: 800;
+  padding-left: 0.9em;
+}
+
+.contact {
+  height: 80%;
+  width: 35%;
+  border: 0.4em solid white;
+  margin-right: 0.9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-message {
+  font-size: 2.8rem;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+/* Contact Styling */
+
+.contact-section {
+  background-color: #f4f4f4;
+  padding: 8em 0;
+}
+
+.contact-container {
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 3em;
+}
+
+.contact-details {
+  height: 70vh;
+  flex: 1;
+  background-color: white;
+  box-shadow: 0 0 20px 0 #aaa;
+  padding: 0.3em 0.5em;
+}
+
+.contact-form {
+  height: 70vh;
+  flex: 1;
+  background-color: white;
+  box-shadow: 0 0 20px 0 #aaa;
+}
+
+.contact-icon {
+  color: #e63946;
+}
+
+.top-heading {
+  display: inline;
+  font-size: 2.5rem;
+  margin-left: 0.3em;
+  font-weight: 400;
+  color: #333333;
+}
+
+.email-icon {
+  font-size: 2.2rem;
+}
+
+.its-discription {
+  margin: 0.4em 0;
+  font-size: 1.3rem;
+  letter-spacing: 0.1em;
+  color: #333333;
+}
+
+.cot-det {
+  margin: 0.9rem 0;
+}
+
+.contact-image {
+  height: 55%;
+  width: 90%;
+  background: url("../img/company-img.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.contact-form-container {
+  height: 95%;
+  width: 96%;
+  margin: 2em auto;
+}
+
+.contact-us {
+  font-size: 2.4rem;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 0.3em;
+}
+
+.horizontal-contact {
+  height: 0.7vh;
+  background-color: #e63946;
+  margin-bottom: 1.9em;
+}
+
+.form-say {
+  font-size: 1.4rem;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.9em;
+}
+
+.form-question {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+}
+
+.star {
+  color: red;
+  font-size: 1.8rem;
+}
+
+.form-que-container {
+  display: flex;
+}
+
+.form-question {
+  align-items: flex-end;
+}
+
+.star {
+  align-items: flex-start;
+}
+
+.normal-textarea {
+  width: 100%;
+}
+
+.large-textarea {
+  width: 100%;
+  height: 25%;
+}
+
+.none::-webkit-resizer {
+  display: none;
+}
