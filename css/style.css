@@ -459,8 +459,9 @@ h1 {
   height: 55%;
   width: 90%;
   background: url("../img/company-img.jpg");
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .contact-form-container {
