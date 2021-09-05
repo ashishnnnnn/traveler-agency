@@ -459,9 +459,8 @@ h1 {
   height: 55%;
   width: 90%;
   background: url("../img/company-img.jpg");
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
-  background-position: center;
 }
 
 .contact-form-container {
@@ -526,9 +525,9 @@ h1 {
   display: none;
 }
 
-/* Media queies */
-
 @media (max-width: 500px) {
+  /* Home media queries */
+
   html {
     font-size: 50%;
   }
@@ -563,6 +562,46 @@ h1 {
   }
   .feature-of-place {
     display: block;
+  }
+
+  /* About media-queries */
+
+  .about-navigation {
+    display: block;
+  }
+
+  .about-navigation .logo,
+  .about-navigation .nav-link {
+    text-align: center;
+  }
+
+  .about-container .listing,
+  .about-container .math-figures,
+  .about-container .rectangle {
+    display: block;
+  }
+
+  .traveled,
+  .places,
+  .guide,
+  .support {
+    margin: 0.9em 0;
+  }
+
+  .rectangle {
+    height: 30vh;
+  }
+
+  .rectangle .meaasge {
+    padding: 0.9em 0;
+    margin-left: 1.2em;
+  }
+
+  .rectangle .contact {
+    width: 90%;
+    margin-left: 1.5em;
+    height: 50%;
+    margin-top: 2em;
   }
 }
 
@@ -602,6 +641,46 @@ h1 {
   .feature-of-place {
     display: block;
   }
+
+  /* About media-queries */
+
+  .about-navigation {
+    display: block;
+  }
+
+  .about-navigation .logo,
+  .about-navigation .nav-link {
+    text-align: center;
+  }
+
+  .about-container .listing,
+  .about-container .math-figures,
+  .about-container .rectangle {
+    display: block;
+  }
+
+  .traveled,
+  .places,
+  .guide,
+  .support {
+    margin: 0.9em 0;
+  }
+
+  .rectangle {
+    height: 30vh;
+  }
+
+  .rectangle .meaasge {
+    padding: 0.9em 0;
+    margin-left: 1.2em;
+  }
+
+  .rectangle .contact {
+    width: 90%;
+    margin-left: 1.5em;
+    height: 50%;
+    margin-top: 2em;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -639,5 +718,45 @@ h1 {
   }
   .feature-of-place {
     display: block;
+  }
+
+  /* About media-queries */
+
+  .about-navigation {
+    display: block;
+  }
+
+  .about-navigation .logo,
+  .about-navigation .nav-link {
+    text-align: center;
+  }
+
+  .about-container .listing,
+  .about-container .math-figures,
+  .about-container .rectangle {
+    display: block;
+  }
+
+  .traveled,
+  .places,
+  .guide,
+  .support {
+    margin: 0.9em 0;
+  }
+
+  .rectangle {
+    height: 30vh;
+  }
+
+  .rectangle .meaasge {
+    padding: 0.9em 0;
+    margin-left: 1.2em;
+  }
+
+  .rectangle .contact {
+    width: 90%;
+    margin-left: 1.5em;
+    height: 50%;
+    margin-top: 2em;
   }
 } ;
