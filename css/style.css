@@ -603,6 +603,11 @@ h1 {
     height: 50%;
     margin-top: 2em;
   }
+
+  /* Contact Html */
+  .contact-container {
+    display: block;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 768px) {
@@ -681,6 +686,11 @@ h1 {
     height: 50%;
     margin-top: 2em;
   }
+
+  /* Contact Html */
+  .contact-container {
+    display: block;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -758,5 +768,10 @@ h1 {
     margin-left: 1.5em;
     height: 50%;
     margin-top: 2em;
+  }
+
+  /* Contact Html */
+  .contact-container {
+    display: block;
   }
 } ;
